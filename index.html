@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="ja">
+<HEAD>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=700">
+<script src="smoothscroll.js" type="text/javascript"></script> 
+
+<link rel="stylesheet" href="./litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./litebox/js/prototype.js"></script>
+<script type="text/javascript" src="./litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="./litebox/js/litebox-1.0.js"></script>
+
+<TITLE>モノリスフィア　アーカイブページ</TITLE>
+<LINK rel="stylesheet" href="monolith.css">
+<LINK rel="stylesheet" href="../../../flowmenu.css">
+
+
+  <style>
+    /* ボディ、フォント指定 */
+    body {
+      /*padding-top: 60px; /* メニューの高さ分スペース確保 */
+      margin: 0;
+      -webkit-font-smoothing: optimizeSpeed;
+      font-smooth: never;
+    }
+    
+    /* 上部固定ナビゲーション */
+    .fixed-menu {
+      background: rgba(70, 70, 80, 0.9); /* 半透明系の淡いクール色 */
+      top: 0;
+      left: 120;  /* ★＠＠＠＠ 左のフローメニューの分 アーカイブ時は0に */
+      width:calc(100% - 120px); /* ★＠＠＠＠ 左のフローメニューの分 アーカイブ時は100％に */
+      box-sizing: border-box;
+      position: fixed;
+      padding: 6px 14px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+	  display: inline-block;
+	  line-height: 1.7;
+	  flex-wrap: wrap; 
+	  min-width:680px;
+    }
+
+    .fixed-menu a {
+      display: inline-block; /* ブロック化して折り返せるようにする */
+      white-space: nowrap;   /* 1項目内の改行は防ぐ */
+      text-decoration: none;
+      font-weight: bold;
+      color: #004466;
+      font-size: 14px;
+      padding: 2px 8px;
+      transition: all 0.2s;
+      border-radius: 6px;
+    }
+
+    .fixed-menu a:hover {
+      background-color: #a5e5c6;
+      color: #002233;
+    }
+    
+.fixed-menu A.g:LINK,.fixed-menu A.g:VISITED{color:#68e6ac;text-decoration: none;}
+.fixed-menu A.g:HOVER,.fixed-menu A.g:ACTIVE{color: #002233;text-decoration: none;}
+
+.fixed-menu A.blue:LINK,.fixed-menu A.blue:VISITED{color:#789cff;text-decoration: none;}
+.fixed-menu A.blue:HOVER,.fixed-menu A.blue:ACTIVE{
+      background-color: #aacfff;color : #444477;text-decoration: none;}
+
+
+
+  </style>
+  
+  
+
+
+</HEAD>
+<BODY onload="initLightbox()">
+
+  
+ 
+    <!-- 上部固定メニュー -->
+  <nav class="fixed-menu"><CENTER>
+    <a href="../../../" class="blue">←ホームへ</a>
+  <SMALL>モノリスフィア</SMALL>
+    <a href="#top" class="g">タイトル</a>
+    <a href="#download" class="g">ダウンロード</a>
+    <a href="#story" class="g">ストーリー</a>
+    <a href="#character" class="g">キャラ紹介</a>
+    <a href="#howto" class="g">基本操作</a>
+    <a href="#custom" class="g">カスタマイズ</a>
+    <a href="#hint" class="g">ヒント</a>
+    <a href="#stafflist" class="g">スタッフ</a>
+
+    </CENTER>
+  </nav>
+  <!-- 上部固定メニューここまで -->
+  
+<a id="top"></a>
+<BR><BR><BR>
+
+<CENTER id="top">
+<TABLE class="koi_back">
+  <TBODY>
+    <TR>
+      <TD nowrap width="650"><BR>
+      <BR>
+      <CENTER>
+<HR width="80%" size="1" color=#8888aa>
+モノリスフィア　アーカイブページ<BR>
+<HR width="80%" size="1" color=#8888aa>
+<BR>
+<TABLE cellpadding="3" cellspacing="1">
+<TBODY>
+<TR>
+<TD><IMG src="image/title.jpg" border="0" alt="※それほど偉大ではありません"></TD>
+<TD class="back" nowrap valign="top"><BR>
+<BR>
+<B class=fmg>【タイトル】</B><BR>
+　モノリスフィア<BR>
+<BR>
+<BR>
+<B class=fmg>【ジャンル】</B><BR>
+　マウスアクションゲーム<BR>
+　（ゲームパッド不要）<BR>
+<BR>
+<BR>
+<B class=fmg>【対応OS】</B><BR>
+　Windows2000/XP/Vista以降<BR>
+<BR>
+<BR>
+<B class=fmg>【プレイ時間】</B><BR>
+　5時間前後<BR>
+<BR>
+<BR>
+<B class=fmg>【初出】</B><BR>
+　コンテストパーク2008年<BR>
+　春号　金賞受賞<BR>
+　 (<A href="https://web.archive.org/web/20080526121756/http://www.enterbrain.co.jp/techwin/data/contents/cpweb/gold1.html" target="_blank">インターネットアーカイブ</A>)<BR>
+            <BR>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR>
+奪われた月の世界を取り戻すため、五つの世界をまたにかけた<BR>
+女神モノリスの冒険がいま始まる！<BR>
+<BR>
+<BR>
+ゲームパッド不要のハイスピードアクションゲーム！<BR>
+お手元のホイール付きマウス一つで、<BR>
+このゲームを遊ぶには最適なプレイ環境となります！<BR>
+もちろんホイールがなくても遊べますよ！<BR>
+<BR>
+<BR>
+<B>【スタッフメッセージ】</B><BR>
+<TABLE border="0">
+<TBODY>
+<TR>
+<TD align="center"><A href="image/staff_mono_su.jpg" rel="lightbox[staff]" class="g"><IMG src="image/staff_mono_su_mini.gif" border="2"><BR>
+キャラ・ボス画像協力<BR>
+<B>すう</B> さんより</A></TD>
+<TD align="center"><A href="image/staff_mono_toko.jpg" rel="lightbox[staff]" class="g"><IMG src="image/staff_mono_toko_mini.gif" border="2"><BR>
+立ち絵着色担当<BR>
+<B>透子</B> さんより</A></TD>
+<TD></TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<a id="download"></a>
+<BR><BR><BR><BR><BR>
+
+<HR width="90%" size="1" color=#8888aa id="download">
+<FONT size="+1"><B><FONT size="+2">【ダウンロード】</FONT></B></FONT><BR>
+<HR width="90%" size="1" color=#8888aa>
+<BR>
+<a href=http://www.vector.co.jp/soft/dl/win95/game/se454497.html><FONT size="+1"><U>【ダウンロード】　( 65MB 　Vectorへ飛びます）</U></FONT></A><BR>
+<BR>
+Vector版は、コンテストパーク版と比較して、以下のような特徴があります。<BR>
+<BR>
+・簡単モードの「ピクニックモード」、二周目用の超難関モード「イノセントモード」を搭載！<BR>
+・セクシーなキャラだと遊びにくい人向けの「ミニキャラモード」を搭載！<BR>
+
+<a id="story"></a>
+<BR><BR><BR><BR><BR>
+<BR>
+<HR width="90%" size="1" color=#8888aa id="story">
+<FONT size="+1"><B><FONT size="+2">【ストーリー】</FONT></B></FONT><BR>
+<HR width="90%" size="1" color=#8888aa>
+<BR>
+宇宙には、五つの世界がありました。<BR>
+緑の世界、太陽の世界、海の世界、冥府の世界、<BR>
+そして、月の世界です。<BR>
+それぞれの世界には、世界を守護する女神様が一人ずついました。<BR>
+<BR>
+その中の一人、月の世界の守護者である女神モノリスは、<BR>
+部下のムーンや執事のラビと共に、日々穏やかな生活を送っていました。<BR>
+<BR>
+<BR>
+<BR>
+しかしある日、謎の「黒き者」たちの襲来によって、<BR>
+月の世界が奪われてしまいます。<BR>
+<BR>
+<BR>
+<BR>
+月の世界を取り戻すには、他の女神達から様々な力を借り、<BR>
+そして散り散りになってしまった「モノリスフィア」を<BR>
+集め直さなければなりません。<BR>
+<BR>
+<BR>
+あなたは果たして、150個のモノリスフィアのカケラを<BR>
+すべて取り戻すことができるでしょうか――？<BR>
+それはあなたの、時と重力を操る腕にかかっています。<BR>
+
+
+<a id="character"></a>
+<BR><BR><BR><BR><BR>
+<HR width="90%" size="1" color=#8888aa  id="character">
+<FONT size="+1"><B><FONT size="+2">【キャラクター】</FONT></B></FONT><BR>
+<HR width="90%" size="1" color=#8888aa>
+<TABLE cellpadding="2" cellspacing="3">
+<TBODY>
+<TR>
+<TD><IMG src="image/chara01.gif" border="0"></TD>
+<TD class="back">【モノリス】　月の女神<BR>
+<BR>
+　月の世界を守るダイナマイトボディの女神様。<BR>
+　軍事ワードと「仕方ありませんわね」が口癖。　<BR>
+　奪われた月の世界を取り戻すため、<BR>
+　5つの世界を駆けめぐる。<BR>
+<BR>
+　時と重力を操る力を持っており、<BR>
+　その移動速度は全ての世界で最速を誇る。</TD>
+</TR>
+<TR>
+<TD><IMG src="image/chara02.gif" border="0"></TD>
+<TD class="back">【ムーン】　モノリスの右腕<BR>
+<BR>
+　先代のモノリス（つまり母）によって造られた<BR>
+　女神の使いで、知恵袋的な役目を果たす。<BR>
+<BR>
+　冒険中、さまざまなアドバイスをしてくれたり、<BR>
+　先代モノリスの情報を伝えてくれたりする。</TD>
+</TR>
+<TR>
+<TD><IMG src="image/chara03.gif" border="0"></TD>
+<TD class="back">【？？？】　緑の世界の女神<BR>
+<BR>
+　緑の世界を守る女神で、モノリスと知り合い。<BR>
+　だがモノリスに名前を忘れられており、<BR>
+　結局、「草子」という愛称が付けられる。<BR>
+　現在は緑の世界のどこかに捕らえられている。<BR>
+　よく泣き、よく謝るが、モノリスのことは好き。<BR>
+<BR>
+　モノリスに治癒能力を授けてくれる。</TD>
+</TR>
+
+<TR>
+<TD><IMG src="image/chara04.gif" border="0"></TD>
+<TD class="back">【フェニキス】　太陽の世界の女神<BR>
+<BR>
+　太陽の世界を守る女神。<BR>
+　割とぶっきらぼうな性格で、<BR>
+　その身はいつでも熱い。<BR>
+　現在は行方不明になっているという。<BR>
+<BR>
+　一見厳しそうだが、かわいい一面も<BR>
+　あるらしい。</TD>
+</TR>
+<TR>
+<TD><IMG src="image/chara05.gif" border="0"></TD>
+<TD class="back">【アクエリア】　海の世界の女神<BR>
+<BR>
+　海の世界を守る、自称露出度100％の女神。<BR>
+　とてものんびりした性格で、温厚。<BR>
+　緑の世界の女神と知り合い。<BR>
+<BR>
+　今は化け物に姿を変えられてしまっている。<BR>
+　助けることができれば、守りの力を<BR>
+　授けてくれるだろう。</TD>
+</TR>
+<TR>
+<TD><IMG src="image/chara06.gif" border="0"></TD>
+<TD class="back">【ハーディア】　冥府の世界の女神<BR>
+<BR>
+　死者の行き着く場所である、冥府の世界を<BR>
+　守る女神。生きてる人にはちょっと厳しい。<BR>
+　モノリスとは先代の頃からライバル的な関係。<BR>
+　<BR>
+　5世界中で、最も強い力を持っている。</TD>
+</TR>
+<TR>
+<TD><IMG src="image/chara07.gif" border="0"></TD>
+<TD class="back">【？？？】　月の世界を奪った者<BR>
+<BR>
+　黒き者たちの長で、月の世界を襲った張本人。<BR>
+　その正体は謎に包まれている。<BR>
+<BR>
+　他の世界でも問題を引き起こしているらしい。<BR>
+　</TD>
+</TR>
+<TR>
+<TD><IMG src="image/chara08.gif" border="0"></TD>
+<TD class="back">【？？？】　謎の人<BR>
+<BR>
+　イノセントモードだけで出てくる語り部。<BR>
+　その正体やいかに。</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<a id="howto"></a>
+<BR><BR><BR><BR><BR>
+<HR width="90%" size="1" color=#8888aa  id="howto">
+<FONT size="+1"><B><FONT size="+2">【基本操作】</FONT></B></FONT><BR>
+<HR width="90%" size="1" color=#8888aa>
+<BR>
+このゲームはほぼ全ての操作をマウスで行います。基本操作は以下の通りです。<BR>
+<BR>
+<TABLE class="mmgray" cellpadding="1" cellspacing="1">
+<TBODY>
+<TR>
+<TD class="back" nowrap><TABLE border="0">
+<TBODY>
+<TR>
+<TD><IMG src="image/play_talkSS.jpg" border="0" width="260" height="195"><BR>
+<BR>
+<IMG src="image/play_selectSS.jpg" border="0" width="260" height="195">
+</TD>
+<TD valign="middle"><BR>
+【会話中・ステージ選択中の操作】<BR>
+<BR>
+　･<B>マウス左クリック</B><BR>
+　　 メッセージを進める・選択肢を決定する<BR>
+<BR>
+　･<B>マウス左＋右クリック</B> <BR>
+　　メッセージを高速スキップする<BR>
+<BR>
+　･<B>マウス右クリック</B> <BR>
+　　選択肢をキャンセルする/元の画面に戻る</TD>
+</TR>
+</TBODY>
+</TABLE>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<TABLE class="mmgray" cellpadding="1" cellspacing="1">
+<TBODY>
+<TR>
+<TD class="back" nowrap>
+<TABLE border="0">
+<TBODY>
+<TR>
+<TD><IMG src="image/play_stageSS.jpg" border="0" width="260" height="195"></TD>
+<TD valign="top">【ステージ中の操作】<BR>
+<BR>
+　･<B>マウス左クリック</B><BR>
+　　 ドラッグし、離すと移動する（※後述）<BR>
+<BR>
+　･<B>マウス右クリック / Xキー</B> <BR>
+　　能力の使用 / ロックオンした対象を調べる<BR>
+<BR>
+　･<B>マウスホイール回転 (キーボードＡ･S/上下キー)</B> <BR>
+　　能力を切り替える<BR>
+<BR>
+　<B>・キーボード スペースキーまたはEnter・Zキー</B><BR>
+　　時間の流れを遅くする</TD>
+</TR>
+</TBODY>
+</TABLE>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<FONT size="+2"><B>【移動方法】</B></FONT><BR>
+<BR>
+移動はマウス左クリックで行います。<BR>
+移動の具体的な手順を以下に示します。<BR>
+<BR>
+<TABLE border="0">
+<TBODY><TR>
+<TD><IMG src="image/play_mouse1.jpg" border="0"></TD>
+<TD><IMG src="image/play_mouseHand1.gif" border="0"></TD>
+</TR></TBODY>
+</TABLE>
+<B>↓ 　　　　　　</B><BR>
+<TABLE border="0">
+<TBODY><TR>
+<TD align="center"><IMG src="image/play_mouse2.jpg" border="0"><BR>
+※このとき表示される赤いガイドは<BR>
+予定進行方向を表しています。</TD>
+<TD><IMG src="image/play_mouseHand2.gif" border="0"></TD>
+</TR></TBODY>
+</TABLE>
+<B><BR>
+↓　　　　　　　　</B><BR>
+<TABLE border="0">
+<TBODY><TR>
+<TD align="center"><IMG src="image/play_mouse3.jpg" border="0"><BR>
+バビューンと飛ぶことができました！<BR>
+空中でも再移動することができます。</TD>
+<TD><IMG src="image/play_mouseHand3.gif" border="0"></TD>
+</TR></TBODY>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<B><FONT size="+2">【ロックオン】</FONT></B><BR>
+<BR>
+キャラクターや看板などに近付くとロックオン状態になります。<BR>
+<BR>
+<TABLE border="0">
+<TBODY>
+<TR>
+<TD align="center"><IMG src="image/play_lock1.jpg" border="0"><BR>ロックなし状態</TD>
+<TD>→</TD>
+<TD align="center"><IMG src="image/play_lock2.jpg" border="0"><BR>ロックオン状態</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR>
+ロックオンされた状態で「<B>右クリック</B>」を押すことで、<BR>
+対象に話しかけたり調べることができます。<BR>
+
+<a id="custom"></a>
+<BR><BR><BR><BR><BR>
+<HR width="90%" size="1" color=#8888aa id="custom">
+<B><FONT size="+2">【カスタマイズ】</FONT></B><BR>
+<HR width="90%" size="1" color=#8888aa>
+<BR>
+ステージ選択画面の「カスタマイズ」では、<BR>
+現在持っている能力のレベルを上げ下げすることができます。<BR>
+<BR>
+<IMG src="image/play_custom.jpg" border="0"><BR>
+<BR>
+
+　ゲージをクリックすると、集めたモノリスフィアの数に応じてレベルの上げ下げを行うことができます。<BR>
+<BR>
+　　　<IMG src="image/play_customGage.gif" border="0"><BR>
+<BR>
+<BR>
+<B>【SP1/SP2マーク】</B><BR>
+<BR>
+　レベルを一定値以上にすると「スペシャルパワー（SP）」が使えるようになります。<BR>
+その詳細な内容は、下の説明欄に表示されます。<BR>
+<BR>
+<BR>
+<B>【限界値マーク】</B><BR>
+<BR>
+　現在上げられるレベルの限界を表しています。<BR>
+他の能力のレベルを上げ下げすれば限界値も変わります。 <BR>
+<BR>
+難しいステージに対しては、まずそれに対応したカスタマイズを考えてみることが<BR>
+第一の突破口となるでしょう。色々工夫してみてください。<BR>
+
+<a id="hint"></a>
+<BR><BR><BR><BR><BR>
+<BR><HR width="90%" color=#8888aa SIZE=1 id="hint">
+
+<FONT size=+1><B><FONT size=+2>【攻略のヒント】</FONT></B></FONT><BR>
+<HR width="90%" color=#8888aa SIZE=1>
+<FONT size=+1><FONT size=+1><BR>
+</FONT></FONT>
+<TABLE border="0" class="mmgray" cellpadding="7" cellspacing="1">
+<TBODY>
+<TR>
+<TD class="koi_back">どうがんばっても取れないスフィアがあります。どうしよう？</TD>
+</TR>
+<TR>
+<TD class="back">　まだ身につけていない能力があるなら、それを身につけてから<BR>
+再びトライしてみるのはいかがでしょう？<BR>
+<BR>
+また、冒険が進むほど能力のレベルを上げられるようになるので<BR>
+攻略が難しいようならとにかく後回しにするのも一手ですよ。</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR>
+<BR>
+<TABLE border="0" class="mmgray" cellpadding="7" cellspacing="1">
+<TBODY>
+<TR>
+<TD class="koi_back">細かい動作が苦手で攻略できません、テクニック不足でしょうか？</TD>
+</TR>
+<TR>
+<TD class="back">　精密動作が求められる場面では、移動速度を最低まで下げれば<BR>
+攻略しやすくなるはずです。とりあえずいつでもレベルを上げておけば<BR>
+よいというわけでもないんですね。<BR>
+<BR>
+でも時間が迫っている状況では、とにかく速度最大がオススメです。<BR>
+どうにもならないときはスペースキーを押して時間を遅くしましょう！</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR>
+<BR>
+
+<TABLE border="0" class="mmgray" cellpadding="7" cellspacing="1">
+<TBODY>
+<TR>
+<TD class="koi_back">　能力もカスタマイズも完璧なのに、難しくてゲットできない<BR>
+モノリスフィアがあります！！どうすればいいですか？</TD>
+</TR>
+<TR>
+<TD class="back">　ありとあらゆる準備を終えたのなら、あとはあなた自身の<BR>
+レベルを上げることが攻略への最善手になるはずです。<BR>
+がんばってください！</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR>
+<BR>
+<TABLE border="0" class="mmgray" cellpadding="7" cellspacing="1">
+<TBODY>
+<TR>
+<TD class="koi_back">　冥府の世界が大変すぎます！特に海！</TD>
+</TR>
+<TR>
+<TD class="back">　基本的には気合い！冥府にある海のステージでは、<BR>
+常にレベル高めのモノリス・グラビティを発動させつつ移動、<BR>
+かつ、箱は炎の能力を限界まで上げて破壊あるのみです。<BR>
+うまいこと両方を使いこなせれば突破できるはずです。</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR>
+<BR>
+<TABLE border="0" class="mmgray" cellpadding="7" cellspacing="1">
+<TBODY>
+<TR>
+<TD class="koi_back">モノリスフィアを全部集めると何かあるんですか？</TD>
+</TR>
+<TR>
+<TD class="back">　ありますよ、ぜひスフィアのコンプリートを目指してみてください。</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR><BR>
+<HR width="90%" color=#8888aa SIZE=1>
+<FONT size=+1><B><FONT size=+2>【ミニキャラモード】</FONT></B></FONT><BR>
+<HR width="90%" color=#8888aa SIZE=1>
+Vector版のみの機能として、<BR>
+ステージ選択画面の「システム」から、キャラクターの立ち絵を変更することが可能！<BR>
+「セクシーキャラだと人前じゃプレイできない！」という方には<BR>
+こちらのミニキャラモードををオススメします！<BR>
+<BR>
+<IMG src="image/mini_charamode.jpg" border="0"><BR>
+<BR>
+
+<a id="stafflist"></a>
+<BR><BR><BR><BR><BR>
+<HR width="90%" size="1" color=#8888aa id="stafflist">
+<B><FONT size="+2">【スタッフ】</FONT></B>
+<HR width="90%" size="1" color=#8888aa>
+<BR>
+[企画・メイン制作]<BR>
+SmokingWOLF<BR>
+<BR>
+<BR>
+[立ち絵グラフィック着色・隠しED一枚絵]<BR>
+　透子 <BR>
+<BR>
+<BR>
+　[キャラクターチップ・ボス画像協力]<BR>
+　すう <BR>
+<BR>
+<BR>
+[ミニキャラグラフィック・エンディング一枚絵]<BR>
+　氷野 <BR>
+<BR>
+　 <BR>
+<BR>
+※このゲームから素材を取り出しての二次利用は禁止させていただきます。<BR>
+<BR>
+<BR>
+<HR width="80%" size="1" color=#8888aa>
+<BR>
+<BR>
+<B>【使用ライブラリ著作権表記】</B><BR>
+<BR>
+[DXライブラリ]<BR>
+　DX Library Copyright (C) 2001-2005 Takumi Yamada.<BR>
+<BR>
+[JPEG読み込み機能]<BR>
+　libjpeg　Copyright (C) 1991-1998, Thomas G. Lane.<BR>
+<BR>
+[PNG読み込み機能]<BR>
+　libpng　Copyright (c) 1998-2004 Glenn Randers-Pehrson.<BR>
+　zlib　Copyright (C) 1995-2004 Jean-loup Gailly and Mark Adler.<BR>
+<BR>
+[OggVorbis 読み込み機能]<BR>
+　ogg_static, vorbis_static, vorbisfile_static<BR>
+　Copyright (C) 1994-2002 XIPHOPHORUS Company.<BR>
+<BR>
+<BR></Center>
+　</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<HR width="650" size="1" color=#8888aa>
+Copyright(C)　SmokingWOLF　All rights reserved
+<HR width="650" size="1" color=#8888aa>
+</CENTER>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15078865-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</BODY>
+</HTML>
